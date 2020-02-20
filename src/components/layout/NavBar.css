@@ -1,0 +1,23 @@
+.my-navbar {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	flex: 0 1 auto;
+}
+
+.my-navbar .dropdown-toggle::after {
+	margin-left: 0.5em;
+	vertical-align: 0.175em;
+}
+
+.my-navbar .corner-buttons-container {
+	margin-right: 2.5rem;
+}
+
+.my-navbar .corner-button {
+	font-size: 1rem !important;
+	z-index: 1;
+}
+
+.my-navbar * + .corner-button {
+	margin-left: 1em;
+}

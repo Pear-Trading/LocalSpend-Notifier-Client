@@ -1,0 +1,29 @@
+:root {
+	--page-transition-time: 675ms;
+	--page-enter-other-anim-delay: 350ms;
+}
+
+.fade-enter {
+	opacity: 0;
+	transform: translateY(-10rem);
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	transition: all var(--page-transition-time);
+	transition-delay: opacity 175ms;
+}
+
+.fade-exit {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.fade-exit-active {
+	opacity: 0;
+	transform: translateY(-10rem);
+	-webkit-transform: translateY(-10rem);
+	transition: opacity 500ms, transform var(--page-transition-time);
+}

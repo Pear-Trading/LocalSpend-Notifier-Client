@@ -1,0 +1,16 @@
+.serve-offer-page .activate-button-wrapper {
+	margin-top: 1.5rem;
+}
+
+.serve-offer-page .qr-code-wrapper {
+	margin-top: 1rem;
+}
+
+.serve-offer-page .qr-code-help-text {
+	font-size: 1.5rem;
+}
+
+.serve-offer-page .qr-code {
+	width: 300px;
+	height: 300px;
+}

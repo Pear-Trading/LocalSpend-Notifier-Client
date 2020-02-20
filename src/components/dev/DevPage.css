@@ -1,0 +1,32 @@
+.dev-page {
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
+.dev-page .user-name {
+	min-width: 20em;
+}
+
+.dev-page .add-data-section + .add-data-section {
+	margin-top: 2.5rem;
+}
+
+.dev-page .add-data-section > div + div {
+	margin-top: 1rem;
+}
+
+.dev-page .transactions-table,
+.dev-page .transactions-table th,
+.dev-page .transactions-table td {
+	border: 1px solid #000;
+}
+
+.dev-page .transactions-table {
+	border-collapse: collapse;
+}
+
+.dev-page .transactions-table th,
+.dev-page .transactions-table td {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}

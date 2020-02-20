@@ -1,0 +1,60 @@
+/*.logged-in-landing-page .button-line-container {
+	margin-top: 1em;
+}*/
+
+.logged-in-landing-page .links-list {
+	border-left: 3px solid var(--blue);
+	margin-top: 2rem;
+}
+
+.logged-in-landing-page .links-list li {
+	/*display: inline-block;*/
+	/*border-top: 2px solid #007bff;*/
+	/*border-bottom: 1px solid #007bff;*/
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	opacity: 0;
+	transform: translateX(-1em);
+}
+
+.logged-in-landing-page .links-list li:first-child {
+	/*border-top: 1px solid #007bff;*/
+}
+
+.logged-in-landing-page .links-list.animate li,
+.logged-in-landing-page .links-list.animated li {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.logged-in-landing-page .links-list.animate li {
+	transition: transform 0.75s, opacity 0.5s;
+	transition-delay: var(--page-enter-other-anim-delay);
+}
+
+.logged-in-landing-page .links-list.animated li {
+	transition: transform 0.25s;
+}
+
+.logged-in-landing-page .links-list li:hover {
+	/*color: #007bff;*/
+	/*transition: all 1s;*/
+}
+
+.logged-in-landing-page .links-list.animated li:hover {
+	transform: translateX(0.5em);
+}
+
+.logged-in-landing-page .links-list .title {
+	color: var(--blue);
+}
+
+.logged-in-landing-page .links-list .more-info {
+	font-size: 0.75em;
+	transition: color 1s;
+}
+
+.logged-in-landing-page .links-list li:hover .more-info {
+	color: var(--blue);
+}

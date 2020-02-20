@@ -1,0 +1,39 @@
+.offer-form {
+	--input-width: 40em;
+	--input-max-width: 75vw;
+}
+
+.offer-form .form-group {
+	width: var(--input-width);
+	max-width: var(--input-max-width);
+}
+
+.offer-form .form-group.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+.offer-form .label-subtext {
+	font-size: 0.85em;
+	color: grey;
+}
+
+.offer-form .form-control {
+	width: 0;
+	opacity: 0;
+}
+
+.offer-form .form-control.animate,
+.offer-form .form-control.animated {
+	width: var(--input-width);
+	max-width: var(--input-max-width);
+	opacity: 1;
+}
+
+.offer-form .form-control.animate {
+	transition: width 1s, opacity 1s;
+	transition-delay: var(--page-enter-other-anim-delay);
+}
+
+.offer-form .form-check-input {
+	margin-top: 0.15em;
+}

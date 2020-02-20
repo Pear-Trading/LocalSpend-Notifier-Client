@@ -1,0 +1,37 @@
+.admin-page hr {
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.admin-page .table-wrapper {
+	margin-top: 1rem;
+}
+
+.admin-page table {
+	font-size: 0.85em;
+}
+
+.admin-page thead tr, .admin-page tbody tr:nth-child(even) {
+	background-color: #aaa;
+}
+
+.admin-page th, .admin-page td {
+	padding: 0.25em 1.5em;
+}
+
+.admin-page th {
+	text-align: center;
+}
+
+.admin-page .name-cell {
+	min-width: 20em;
+}
+
+.admin-page .email-cell {
+	min-width: 15em;
+}
+
+.admin-page .confirm-cell {
+	min-width: 7.5em;
+	text-align: center;
+}

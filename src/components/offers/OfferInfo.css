@@ -1,0 +1,19 @@
+.offer-info .courtesy-of-text,
+.offer-info .offer-expires-text {
+	font-style: italic;
+}
+
+.offer-info .seller-name-text {
+	font-size: 2.5rem;
+	font-weight: bold;
+	line-height: 0.9em;
+}
+
+.offer-info .offer-description-text,
+.offer-info .offer-expires-text {
+	font-size: 1.5rem;
+}
+
+.offer-info .offer-description-text {
+	font-weight: bold;
+}

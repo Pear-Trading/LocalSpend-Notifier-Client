@@ -1,0 +1,8 @@
+.transaction-form .invalid-feedback {
+	text-align: center;
+}
+
+.transaction-form .confirm-button {
+	margin-top: 0.5em;
+	font-size: 2rem;
+}

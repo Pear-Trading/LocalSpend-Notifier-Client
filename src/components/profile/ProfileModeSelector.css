@@ -1,0 +1,30 @@
+.profile-mode-select {
+	position: relative;
+}
+
+.profile-mode-select > * {
+	display: inline-block;
+}
+
+.profile-mode-select > button:focus {
+	box-shadow: none;
+}
+
+.profile-mode-select > button:first-child {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.profile-mode-select > button:last-child {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.profile-mode-select > .divider {
+	width: 0.25em;
+	height: 100%;
+	background-color: #fff;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}

@@ -1,0 +1,70 @@
+.profile-page .profile-panel {
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
+.profile-page .profile-panel + .profile-panel {
+	margin-top: 1.5rem;
+}
+
+.profile-page .profile-panel:last-child {
+	margin-bottom: 3rem;
+}
+
+.profile-page .profile-header .profile-for-text {
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+.profile-page .profile-header .username-text {
+	font-size: 4rem;
+}
+
+.profile-page.advanced-mode .options-container .title-text {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+.profile-page.advanced-mode .options {
+	border: 3px solid var(--green);
+	border-radius: 0.5em;
+	padding: 2em;
+	background-color: #ddf;
+}
+
+.profile-page.advanced-mode .options hr {
+	background-color: var(--green);
+}
+
+.profile-page.advanced-mode .options select,
+.profile-page.advanced-mode .options input {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 2em;
+}
+
+.profile-page.advanced-mode .options .or-text {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.profile-page.advanced-mode .options .selected-tp-mode-text {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.profile-page.advanced-mode .options .for-text {
+	width: 2em;
+	display: inline-block;
+}
+
+.profile-page.advanced-mode .options .between-text {
+	width: 4.2em;
+	display: inline-block;
+}
+
+.profile-page.advanced-mode .chart {
+	min-height: 400px;
+}

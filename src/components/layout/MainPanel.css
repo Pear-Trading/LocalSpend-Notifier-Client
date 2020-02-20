@@ -1,0 +1,33 @@
+.main-panel {
+	background-color: #ddd;
+	border: 3px solid var(--blue);
+	border-radius: 0.5rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.main-panel a + a button {
+	margin-left: 1em;
+}
+
+.main-panel hr {
+	background-color: #000;
+}
+
+.main-panel .title-text {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.main-panel.success, .main-panel.error {
+	color: #fff;
+}
+
+.main-panel.success {
+	background-color: var(--blue);
+}
+
+.main-panel.error {
+	background-color: #f00;
+	border-color: #f00;
+}

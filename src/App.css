@@ -1,0 +1,141 @@
+#root, .full-height {
+	height: 100%;
+}
+
+#root {
+	display: flex;
+	flex-flow: column;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.full-container-size {
+	width: 100%;
+	height: 100%;
+}
+
+.invalid-feedback {
+	display: block;
+	font-weight: bold;
+}
+
+.form-error {
+	/*font-style: italic;*/
+	font-weight: 600;
+	/*color: #f00;*/
+}
+
+.large-text {
+	font-size: 1.25rem;
+}
+
+.padding-2 {
+	padding: 2rem;
+}
+
+.padding-4 {
+	padding: 4rem;
+}
+
+.flex-centre-x {
+	justify-content: center;
+}
+
+.flex-centre-y {
+	align-items: center;
+}
+
+.flex-centre-xy {
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.spaced-children-2 > * + * {
+	margin-top: 2rem;
+}
+
+.spaced-children-1 > * + * {
+	margin-top: 1rem;
+}
+
+/* !!! */
+.text-danger {
+	color: #f00 !important;
+}
+
+.interactive {
+	cursor: pointer;
+}
+
+.number-input {
+	width: 4em;
+	text-align: right;
+	padding-right: 0.25em;
+}
+
+select[disabled] {
+	background-color: #ccc;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+label {
+	margin-bottom: 0;
+}
+
+.inline-left {
+	margin-right: 0.5em;
+}
+
+.inline-middle {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.inline-right {
+	margin-left: 0.5em;
+}
+
+.line-height-300 {
+	line-height: 300%;
+}
+
+.scroll-x {
+	overflow-x: scroll;
+}
+
+.margin-left-auto {
+	margin-left: auto;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	color: var(--blue) !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+@media (max-width: 900px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 750px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+}

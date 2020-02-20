@@ -1,0 +1,9 @@
+.offer-table .description-cell {
+	height: 1.5em;
+	width: 25em;
+}
+
+.offer-table .description-cell .description-input {
+	width: 100%;
+	box-sizing: border-box;
+}
